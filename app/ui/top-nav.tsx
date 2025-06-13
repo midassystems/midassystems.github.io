@@ -5,19 +5,12 @@ import { FaMedium } from "react-icons/fa6";
 
 export default function TopNav() {
   return (
-    <div className={styles.top_nav_container}>
-      <div className={styles.icon_bar}>
-        <a href="https://github.com/anthonyb8">
-          <FaGithub />
-        </a>
-        <a href="https://www.linkedin.com/in/anthonybax">
-          <FaLinkedin />
-        </a>
-        <a href="https://medium.com/@anthonybaxter819">
-          <FaMedium />
-        </a>
+    <div className={styles.top_nav}>
+      <div className={styles.nav_logo}>
+        <img src="white_logo.png" />
+        <h1>idas</h1>
       </div>
-      <nav className={styles.top_nav}>
+      <nav className={styles.nav}>
         <a href="#about" className={styles.top_nav_icons}>
           About
         </a>
@@ -31,9 +24,6 @@ export default function TopNav() {
           Contact
         </a>
       </nav>
-      <button className={styles.resume_button}>
-        <a href="resume.txt">Resume</a>
-      </button>
     </div>
   );
 }
