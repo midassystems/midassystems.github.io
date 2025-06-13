@@ -3,7 +3,7 @@
   grid-template-rows: 20px 1fr 20px;
   align-items: center;
   justify-items: center;
-  min-height: 100svh;
+  min-height: calc(100svh - 100px);
   padding: 80px;
   gap: 64px;
   font-family: var(--font-geist-sans);
@@ -14,4 +14,30 @@
   flex-direction: column;
   gap: 32px;
   grid-row-start: 2;
+  width: 60%;
+}
+
+.main h1 {
+  font-size: 3rem;
+  color: white;
+}
+
+.main h3 {
+  color: grey;
+  width: 80%;
+}
+
+.button_container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+.main button {
+  padding: 15 100;
+  border-radius: 50px;
+  font-size: 1.25rem;
+  font-weight: bold;
+  border: none;
+  color: rgba(42, 42, 42, 0.9);
 }
