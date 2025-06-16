@@ -8,7 +8,7 @@ export default function Home() {
         <h1>Algorithmic trading made simple.</h1>
         <h3>
           Whether you are a seasoned professional or a beginner the Midas System
-          providess everything you need to build & deploy strategies.
+          provides everything you need to build & deploy strategies.
         </h3>
         <Socialbar />
         <div className={styles.button_container}>
