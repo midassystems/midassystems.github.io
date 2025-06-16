@@ -1,11 +1,6 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-  /*   #001b2e */
-  /* #1d3f58 */
-  /* #537692 */
-  /* #b3cde4 */
-  /* #eef3f9 */
+  --off-white: #f4f0e0;
+  --header-bg: rgb(42, 42, 42, 0.2);
 }
 
 html,
@@ -15,7 +10,14 @@ body {
 }
 
 body {
-  background: linear-gradient(135deg, #001b2e, #537692, #001b2e);
+  background: linear-gradient(
+    130deg,
+    #2a5d9f,
+    #8b5e3c,
+    #2a5d9f,
+    #8b5e3c,
+    #2a5d9f
+  );
   font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
 }
 
